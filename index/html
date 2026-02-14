@@ -4,7 +4,7 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=3.0"/>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%231e6fd9'/%3E%3Cstop offset='100%25' stop-color='%230e3d8a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='10' fill='url(%23g)'/%3E%3Cpath d='M12 32 C12 20 20 12 32 12 C38 12 43 15 46 20 L40 23 C38 19 35 17 32 17 C23 17 17 23 17 32 C17 41 23 47 32 47 C35 47 38 45 40 41 L46 44 C43 49 38 52 32 52 C20 52 12 44 12 32Z' fill='white'/%3E%3Cpath d='M36 24 L52 24 L44 32 L52 40 L36 40 L36 36 L46 36 L40 32 L46 28 L36 28Z' fill='%234a9eff'/%3E%3C/svg%3E"/>
-  <title>CyDecals – Custom Decals for Your Ebike</title>
+  <title>CyDecals</title>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -425,11 +425,11 @@
       <p class="section-body">Fork guards, plate wraps, light covers — a few examples of what we make.</p>
       <div class="gallery-grid">
         <div class="gallery-tile fade-up"><img src="images/ForkDecals.png" alt="Fork decals"/><div class="gallery-tile-label">Fork Guard Decals</div></div>
-        <div class="gallery-tile fade-up d1"><img src="images/ODIPlate.png" alt="ODI plate decal"/><div class="gallery-tile-label">ODI Plate Decal</div></div>
-        <div class="gallery-tile fade-up d2"><img src="images/BajaLight.png" alt="Baja light"/><div class="gallery-tile-label">Baja Light Decal</div></div>
+        <div class="gallery-tile fade-up d1"><img src="images/ODIPlate.png" alt="ODI plate decal"/><div class="gallery-tile-label">ODI Plate Decals</div></div>
+        <div class="gallery-tile fade-up d2"><img src="images/BajaLight.png" alt="Baja light"/><div class="gallery-tile-label">Baja Light </div></div>
         <div class="gallery-tile fade-up"><img src="images/ForkDecals.png" alt="Chrome vinyl"/><div class="gallery-tile-label">Chrome Vinyl</div></div>
         <div class="gallery-tile fade-up d1"><img src="images/ODIDecal.png" alt="Sparkle"/><div class="gallery-tile-label">Sparkle Glitter</div></div>
-        <div class="gallery-tile fade-up d2"><img src="images/PouchBag.png" alt="Pouch bag"/><div class="gallery-tile-label">Pouch Bag Wrap</div></div>
+        <div class="gallery-tile fade-up d2"><img src="images/PouchBag.png" alt="Pouch bag"/><div class="gallery-tile-label">Pouch Bag</div></div>
       </div>
     </div>
   </div>
@@ -446,7 +446,7 @@
   <div class="store-top">
     <div class="store-top-inner">
       <h2>Decal Store</h2>
-      <p>Click any product to customize and order — made fresh for you</p>
+      <p>Click any product to customize and order </p>
       <div class="filters">
         <button class="filter-tab active" onclick="setFilter('all',this)">All</button>
         <button class="filter-tab" onclick="setFilter('odi',this)">ODI</button>
@@ -537,7 +537,7 @@
     </div>
     <div class="contact-info-row">
       <div class="info-tile"><div class="t-icon">📧</div><div class="t-label">Email</div><div class="t-val">CyDecals.co@gmail.com</div></div>
-      <div class="info-tile"><div class="t-icon">⚡</div><div class="t-label">Turnaround</div><div class="t-val">1–2 business days</div></div>
+      <div class="info-tile"><div class="t-icon">⚡</div><div class="t-label">Making</div><div class="t-val">1–2 business days</div></div>
       <div class="info-tile"><div class="t-icon">📦</div><div class="t-label">Shipping</div><div class="t-val">USPS First Class / Priority</div></div>
       <div class="info-tile"><div class="t-icon">🎨</div><div class="t-label">Custom Orders</div><div class="t-val">Always welcome</div></div>
     </div>
