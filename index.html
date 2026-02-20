@@ -1787,7 +1787,7 @@
 
 <body>
 
-  <div class="ann-bar">Free shipping on orders over $50 &nbsp;·&nbsp; 1–2 business day turnaround</div>
+
 
   <nav>
     <div class="nav-inner">
@@ -2451,7 +2451,28 @@
             <textarea class="field-textarea" id="m-logos" rows="2" placeholder="List any logos you want added here (e.g. Fox, Red Bull, etc.) - We can add almost anything!"></textarea>
           </div>`;
 
-      if (activeProduct.type === 'odi-style') {
+      if ([1, 4, 6].includes(activeProduct.id)) {
+        html = `
+      <div class="product-page-inner">
+        <div class="product-image-col">
+          <div class="product-main-img">
+            <img src="${activeProduct.img}" alt="${activeProduct.name}" onerror="this.src='${fallback}'"/>
+          </div>
+        </div>
+        <div class="product-form-col">
+          <div class="pf-title">${activeProduct.name}</div>
+          <div class="pf-price">${activeProduct.price}</div>
+          <div class="pf-desc">${activeProduct.desc}</div>
+
+          <div class="field-group">
+            <label class="field-label">Quantity</label>
+            <input type="number" class="field-input" id="m-qty" value="1" min="1" max="99"/>
+          </div>
+
+          <button class="btn-place-order" id="place-order-btn" onclick="addToCart()" style="margin-top:20px;">Add to Cart - ${activeProduct.price}</button>
+        </div>
+      </div>`;
+      } else if (activeProduct.type === 'odi-style') {
         const thumbs = ODI_STYLES.map(s => `
       <div class="style-thumb" data-sid="${s.id}" onclick="pickStyle('${s.id}')">
         <div class="style-thumb-sprite" style="--spr:url('data:image/png;base64,${STYLES_IMG}');background-position:${s.bgPos};"></div>
